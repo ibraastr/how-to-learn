@@ -60,12 +60,12 @@
 }
 
 .header__square-pic {
-  height: 568px;
+  height: 85vh;
   width: 568px;
   background-color: blue;
   position: absolute;
   right: 0;
   top: 64px;
+  box-sizing: border-box;
   /*border: 2px solid red;*/
-  height: 80vh;
 }
