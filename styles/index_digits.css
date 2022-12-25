@@ -1,0 +1,65 @@
+.digits {
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /*border: 2px red solid;*/
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-title_theme_light {
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  /*border: 2px red solid;*/
+  margin-bottom: 10px;
+}
+
+.section-subtitle_theme_light {
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+ /* border: 2px red solid;*/
+}
+
+.table_theme_light {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /*border: 2px red solid;*/
+}
+
+.table__cell_theme_light {
+  width: 250px;
+  margin-top: 60px;
+ /* border: 2px red solid;*/
+}
+
+.table__text_theme_light {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__heading_theme_light {
+  margin: 0 0 0 0;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  /*border: 1px red solid;*/
+}
