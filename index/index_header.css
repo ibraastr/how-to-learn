@@ -6,7 +6,8 @@
   display: flex;
   flex-direction: row;
   position: relative;
-  background-color: grey;
+  background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 .logo__place_header {
@@ -31,10 +32,12 @@
 }
 
 .header__subtitle {
+  margin: 0 0 0 0;
   z-index: 1;
-  display: flex;
-  flex-direction: column;
-  width: 388px;
+  /*display: flex;
+  flex-direction: row;*/
+  max-width: 388px;
+  width: 100%;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -44,7 +47,7 @@
 }
 
 .header__link {
-  color: blue;
+  color: #2f80ed;
   text-decoration: none;
 }
 
@@ -60,9 +63,9 @@
 }
 
 .header__square-pic {
-  height: 85vh;
+  height: 568px;
   width: 568px;
-  background-color: blue;
+  background-color: #2f80ed;
   position: absolute;
   right: 0;
   top: 64px;

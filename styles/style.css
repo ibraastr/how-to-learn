@@ -1,9 +1,9 @@
-@import url('./index_header.css');
-@import url('./index_description.css');
-@import url('./index_digits.css');
-@import url('./index_feynman.css');
-@import url('./index_kaufman.css');
-@import url('./index_footer.css');
+@import url('../index/index_header.css');
+@import url('../index/index_description.css');
+@import url('../index/index_digits.css');
+@import url('../index/index_feynman.css');
+@import url('../index/index_kaufman.css');
+@import url('../index/index_footer.css');
 
 .page {
   min-width: 1100px;
@@ -14,4 +14,5 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  position: relative;
 }
