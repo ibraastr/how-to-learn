@@ -404,11 +404,6 @@
   flex-direction: column;
   }
 
-  .logo {
-  height: 32px;
-  width: 228px;
-}
-
   .logo_place_footer {
   z-index: 0;
   }
