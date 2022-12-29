@@ -19,7 +19,7 @@
   font-size: 60px;
   font-weight: 600;
   /*border: 2px red solid;*/
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .section-subtitle_theme_light {
@@ -46,18 +46,24 @@
 .table__cell_theme_light {
   width: 250px;
   margin-top: 60px;
- /* border: 2px red solid;*/
+  /*border: 2px red solid;*/
 }
 
 .table__text_theme_light {
+  margin: 0 0 0 0;
+  /*margin-top: 20px;
+  margin-bottom: 20px;*/
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  /*border: 2px red solid;*/
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .table__heading_theme_light {
   margin: 0 0 0 0;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;

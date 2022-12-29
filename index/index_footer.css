@@ -4,12 +4,12 @@
     min-height: 350px;
     padding-bottom: 40px;
     background-color:#1f1f1f;
+    box-sizing: border-box;
     }
     .footer__columns {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-height: 250px;
     width: 90%;
     margin: 0 auto;
     margin-top: 60px;
@@ -35,9 +35,13 @@
     flex-direction: column;
     }
 
-    .logo__place_footer {
-    width: 228px;
+    .logo {
     height: 32px;
+    width: 228px;
+}
+
+    .logo_place_footer {
+    z-index: 0;
     }
 
     .footer__author {
@@ -59,6 +63,7 @@
 
     .footer__column-links {
     margin: 0 0 0 0;
+    margin-bottom: 16px;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
@@ -67,6 +72,9 @@
 
     .footer__social-icon {
     color: white;
+    width: 16px;
+    height: 16px;
+    margin: 0 10px 0 0;
     }
 
     .footer__column-link {

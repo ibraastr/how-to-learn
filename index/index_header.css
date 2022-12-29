@@ -10,16 +10,21 @@
   overflow: hidden;
 }
 
-.logo__place_header {
+.logo {
+  height: 32px;
+  width: 228px;
+}
+
+.logo_place_header {
   z-index: 1;
   position: absolute;
   top: 30px;
   left: 64px;
-  width: 228px;
-  height: 32px;
 }
+
 .header__title {
   z-index: 1;
+  margin: 0 0 0 0;
   width: 730px;
   display: flex;
   align-items: center;
@@ -41,7 +46,7 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-  line-height: 18px;
+  line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }

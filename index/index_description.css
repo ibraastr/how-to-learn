@@ -13,6 +13,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 80%;
+    /*border: 2px red solid;*/
     }
 
    .two-columns__brief {
@@ -28,24 +29,28 @@
 
    .two-columns__main-text {
     margin: 0 0 0 0;
-    width: 784px;
+    min-width: 784px;
+    width: 80%;
    }
 
    .two-columns__paragraph {
     margin: 0 0 0 0;
+    margin-top: 30px;
+    margin-bottom: 0;
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
+    /*border: 2px red solid;*/
    }
-   .two-columns__paragraph_line-height {
-    line-height: 30px;
-   }
+
+   .two-columns__paragraph:first-child {
+    margin-top: 0;
+  }
+
    .two-columns__span-accent {
    margin: 0 0 0 0;
    line-height: 34px;
    font-size: 24px;
    font-weight: 600;
-   margin-top: 60px;
-   margin-bottom: 60px;
    }
 
