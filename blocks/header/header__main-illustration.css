@@ -1,0 +1,10 @@
+.header__main-illustration {
+    margin: 0 0 0 0;
+    height: 608px;
+    width: 765px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* border: 2px solid red;*/
+    box-sizing: border-box;
+  }

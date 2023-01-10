@@ -1,0 +1,9 @@
+.footer {
+  margin: 0 0 0 0;
+  display: flex;
+  min-height: 350px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #1f1f1f;
+  box-sizing: border-box;
+}
