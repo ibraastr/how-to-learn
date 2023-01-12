@@ -4,6 +4,8 @@
   width: 920px;
   padding: 0;
   flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
